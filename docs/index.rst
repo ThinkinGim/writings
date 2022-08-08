@@ -3,14 +3,20 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to craftaws's documentation!
+Blog Posts
 ====================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :glob:
+   :hidden:
+   :maxdepth: 1
 
+   blog/index
 
+.. postlist:: 10
+   :date: %B %d, %Y
+   :format: {title} - {date}
+   :list-style: circle
 
 Indices and tables
 ==================
